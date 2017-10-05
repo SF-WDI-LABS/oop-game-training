@@ -45,25 +45,21 @@ Work with a partner to list some properties and methods of cards, the game itsel
 * Don't forget a constructor!
 
 **Card**
-<details><summary>click for examples properties</summary>
   - `faceImage` (string)
   - `isFaceUp` (boolean)
   - `isMatched` (boolean)
   - `flipOver()` (Function - change whether the card is currently face up)
   - `Card(options)` (Function - constructor, create a card based on options like whether it should be a random image or what the image should be)
-</details>
 
 **Pair**
-<details><summary>click for examples for Pair</summary>
   - `card1` (Card)
   - `card2` (Card)
   - `addCard(someCard)` (Function - add a specific card to the pair)
   - `isMatch()` (Function - check if this pair is a match)
   - `Pair()` (Function - constructor, create an empty pair)
-</details>
+
 
 **Game**
-<details><summary>click for examples for Game</summary>
   - `current_guess` (Pair)
   - `cards` ([Card])
   - `reset()` (Function - resets the game!)
@@ -72,7 +68,6 @@ Work with a partner to list some properties and methods of cards, the game itsel
   - `removeCard(card)` (Function - remove this card from the game)
   - `hasWon()` (Function - check if the game has been won!)
   - `celebrate()` (Function - display a win message)
-</details>
 
 ### User Stories
 
